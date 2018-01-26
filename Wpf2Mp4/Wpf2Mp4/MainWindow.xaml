@@ -1,0 +1,18 @@
+﻿<Window x:Class="Wpf2Mp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf2Mp4"
+        mc:Ignorable="d"
+        Title="视频压缩" Height="420.872" Width="634.034">
+    <Grid>
+        <Label Content="源文件：" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbSourcePath" HorizontalAlignment="Left" Height="23" Margin="73,20,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="362"/>
+        <Button Content="浏览..." HorizontalAlignment="Left" Margin="440,20,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="Button_Click"/>
+        <Label Content="质量：" HorizontalAlignment="Left" Margin="22,64,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.094,0.503"/>
+        <TextBox x:Name="tbQV" HorizontalAlignment="Left" Height="23" Margin="73,64,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="bn2Mp4" Content="开始转换" HorizontalAlignment="Left" Margin="73,119,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
