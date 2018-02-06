@@ -52,12 +52,12 @@
             // 
             this.tbSource.Location = new System.Drawing.Point(84, 20);
             this.tbSource.Name = "tbSource";
-            this.tbSource.Size = new System.Drawing.Size(327, 21);
+            this.tbSource.Size = new System.Drawing.Size(572, 21);
             this.tbSource.TabIndex = 1;
             // 
             // bnSource
             // 
-            this.bnSource.Location = new System.Drawing.Point(421, 18);
+            this.bnSource.Location = new System.Drawing.Point(662, 19);
             this.bnSource.Name = "bnSource";
             this.bnSource.Size = new System.Drawing.Size(75, 23);
             this.bnSource.TabIndex = 2;
@@ -80,7 +80,7 @@
             this.tbQV.Name = "tbQV";
             this.tbQV.Size = new System.Drawing.Size(100, 21);
             this.tbQV.TabIndex = 4;
-            this.tbQV.Text = "10";
+            this.tbQV.Text = "15";
             // 
             // bnConvert
             // 
@@ -97,7 +97,7 @@
             this.groupBox1.Controls.Add(this.rtbContent);
             this.groupBox1.Location = new System.Drawing.Point(13, 134);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(483, 207);
+            this.groupBox1.Size = new System.Drawing.Size(785, 316);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             // 
@@ -105,7 +105,7 @@
             // 
             this.rtbContent.Location = new System.Drawing.Point(7, 15);
             this.rtbContent.Name = "rtbContent";
-            this.rtbContent.Size = new System.Drawing.Size(470, 186);
+            this.rtbContent.Size = new System.Drawing.Size(772, 295);
             this.rtbContent.TabIndex = 0;
             this.rtbContent.Text = "";
             // 
@@ -113,7 +113,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(507, 353);
+            this.ClientSize = new System.Drawing.Size(810, 462);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.bnConvert);
             this.Controls.Add(this.tbQV);
